@@ -1,0 +1,472 @@
+		body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            max-width: 100%;
+            height: 45vh;
+            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(car-rentals1.png);
+			background-size: cover;
+			background-position: center;
+        }
+
+        .navbar{
+            width: 88%;
+            margin: 0 auto;
+        }
+
+        .navbar-brand{
+            font-size: 25px;
+            color: #fff;
+        }
+        
+        .navbar-nav{
+            margin: 0 auto;
+           
+        }
+
+        .navbar-nav .nav-item{
+            margin-right: 40px;
+            position: relative;
+            left: 80px;
+        }
+
+        .navbar-nav .nav-item .nav-link{
+            color: #fff;
+            font-size: 19px;
+        }
+
+        .navbar-nav .nav-item a:hover{
+            color: #ff7200;
+            transition: 0.4s ease-in-out;
+        }
+        
+        .navbar .btn{
+            color: #fff;
+            height: 40px;  
+            font-size: 19px;
+            width: 100px;
+            margin: 0;
+        }
+
+        .navbar .sign-btn{
+            background: none;
+            border: none;
+            color: black;   
+        }
+
+        .navbar .reg-btn{
+            background: none;
+            border: none;
+            background: #ff7200;
+            
+        }
+
+        .navbar .sign-btn:hover{
+            color: #fff;
+            transition: 0.4s ease-in-out;
+        }
+
+        .navbar-toggler{
+            border: 3px solid  #ff7200;
+            background: #fff;
+        }
+		
+		.content{
+            color:#fff;
+            width: 85%;
+            margin: 0 auto;
+		}
+		
+		.content .content-text{
+			padding-top: 80px;
+		}
+		
+		.content .content-text span{
+			font-size:35px;
+			font-weight: bold;
+		}
+		
+		.content .content-text p{
+			font-weight: bold;
+			padding-top: 6px;
+		}
+
+        .main-page{
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .About-company{
+            height: 80vh;
+            background: pink;
+        }
+
+        .about-company-content{
+            width: 60%;
+            margin: auto;
+            padding-top: 100px;
+            display: flex;
+            gap: 70px;
+        }
+
+        .about-company-content .AC-image{
+            width:  500px;
+            height: 400px;
+            position: relative;
+            top: 38px;
+        }
+
+        .about-company-text{
+            color: black;
+        }
+
+        .about-company-text h4{
+            font-weight: bold;
+        }
+
+        .about-company-text span{
+            font-size: 43px;
+            font-weight: bold;
+            line-height: normal;
+        }
+
+        .about-company-text p{
+            color: #5a5a5a;
+            padding-top: 20px;
+        }
+
+        .about-company-logoInfo span{
+            font-size: 37px;
+            color: black;
+        }
+
+        .about-company-logoInfo{
+            display: flex;
+            gap: 20px;
+        }
+
+        .plan-trip{
+            color: black;
+        }
+        
+        .plan-trip .header{
+           text-align: center;
+           padding: 250px;
+           font-family: Arial, Helvetica, sans-serif;
+           font-weight: bold;
+        }
+
+        .smooth-tripInfo{
+            display: flex;
+            gap: 200px;
+            width: 85%;
+            margin: 0 auto;
+            padding-left: 100px;
+            position: relative;
+            bottom: 50px;
+        }
+
+        .smooth-tripInfo div h4{
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .smooth-tripInfo div p{
+            text-align: center;
+            color: #5a5a5a;
+        }
+
+        .book-a-car{
+            width: 100%;
+            height: 150px;
+            background: black;
+            margin-top: 100px;
+        }        
+        
+        .book-a-car .book-aCar-content{
+            color: #fff;
+            padding-top: 60px;
+        }
+
+        .book-a-car .book-aCar-text{
+            font-size: 30px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            gap: 30px;
+        }
+
+        .contact .company ul li{
+            list-style: none;
+            padding-bottom: 10px;
+            position: relative;
+            right: 35px;
+         }
+
+        .contact .company ul li a{
+            text-decoration: none;
+            color: black;
+         }
+
+         .contact .company ul li a:hover{
+            color: #ff7200;
+            transition: 0.4s ease-in-out;
+         }
+
+         .contact .carrental-info .reachables{
+            color: black;
+            font-weight: bold;
+         }
+
+         .contact .carrental-info p{
+            color: #5a5a5a;
+         }
+
+         .contact h3{
+			font-weight: bold;
+		 }
+
+        .contact .subscribe .subscribe-input{
+            width: 230px;
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            border: none;
+            background: #e5e4e2;
+         }
+
+        .contact .subscribe .subscribe-button{
+            position: relative;
+            top: 50px;
+            right: 233px;
+            width: 230px;
+            height: 45px;
+            font-size: 18px;
+            font-weight: bold;
+            background: #ff7200;
+            border: none;
+            border-radius: 5px;
+         }
+
+         .contact .subscribe .subscribe-button:hover{
+            background: black;
+            transition: 0.6s ease-in-out;
+         }
+
+        .contact .subscribe .subscribe-button a{
+            text-decoration: none;
+            color: #fff;
+         }
+
+         .contact{
+            margin-top: 150px;
+            color: black;
+         }
+
+         .contact .contact-content{
+            width: 89%;
+            margin: auto;
+            display: flex;
+            gap: 120px;
+            position: relative;
+            left:40px;
+         }
+
+        .reviews-section{
+            height: 80vh;
+        } 
+
+        .reviews-section .reviews-content{
+            width: 85%;
+            margin: auto;
+            color: black;
+            padding-top: 150px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .reviews-section .reviews-content .reviews{
+            text-align: center;
+        }
+
+        .reviews-section .reviews-content .reviews p{
+            color: #5a5a5a;
+        }
+
+        .reviews-section .reviews-content .testimonials{
+            display: flex;
+            gap: 400px;
+            font-size: 20px;
+            margin-top: 150px;
+            color: black;
+        }
+
+        .reviews-section .reviews-content .testimonials div h5{
+            padding-top: 15px;
+        }
+
+        .reviews-section .reviews-content .testimonials div{
+            background: #e5e4e2;
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            padding-top: 70px;
+        }
+
+        .testimonials .client-testimonial{
+            width: 50px;
+            height: 50px;
+            border-radius: 200px;
+        }
+
+               /* Small devices (phones) */
+@media (max-width: 576px) {
+    .reviews-section{
+         height: 140vh;
+    }
+    .reviews p{
+        letter-spacing: 0.5px;
+        text-align: justify;
+        position: relative;
+        top: 30px;
+     }
+
+     .reviews-content{
+        position: relative;
+        bottom: 70px;
+     }
+
+     .reviews-content .testimonials{
+            
+            display: flex !important;
+            flex-direction:column !important;
+            align-items: center !important;
+		    gap: 30px !important;
+            position: relative;
+            bottom: 20px;
+     }
+
+     .reviews-content .testimonials div{
+        width: 110% !important;
+        margin-bottom: 20px;
+        padding-top: 30px !important;
+     }
+
+     .book-aCar-text{
+        display: flex;
+        gap: 10px !important;
+    }
+
+    .book-aCar-text div{
+        font-size:15px;
+    }
+
+    .contact-content{
+        display: flex;
+        flex-direction:column;
+        gap: 20px !important; 
+       
+    }
+
+    .subscribe-button{
+        position: relative;
+        left: 2px; 
+    }
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 576px) and (max-width: 991px) {
+    .reviews-section .testimonials{
+        display: flex !important;
+        gap: 30px !important;
+    }
+
+    .reviews-section .testimonials div{
+        font-size: 17px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .contact-content{
+       display: flex;
+       flex-direction:column;
+       gap: 10px !important;
+       position: relative;
+       bottom: 80px;   
+    }
+}
+
+/* Small Desktop Styles */
+    @media (min-width: 1280px) and (max-width: 1280px) {
+        /* Adjustments for small desktop screens */
+        .navbar-brand{
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-item{
+            margin-right: 10px;
+            position: relative;
+            left: 80px;
+        }
+
+        .navbar-nav .nav-item .nav-link{
+            color: #fff;
+            font-size: 17px;
+        }
+
+        .navbar .btn{
+            color: #fff;
+            height: 40px;  
+            font-size: 15px;
+            width: 100px;
+            margin: 0;
+        }
+
+        .navbar .sign-btn{
+            background: none;
+            border: none;
+            color: black;
+            position: relative;
+            left: 19px;
+        }
+
+        .navbar .reg-btn{
+            background: none;
+            border: none;
+            background: #ff7200;  
+        }
+
+        .navbar .sign-btn:hover{
+            color: #fff;
+            transition: 0.4s ease-in-out;
+        }
+
+        .navbar-toggler{
+            border: 3px solid  #ff7200;
+            background: #fff;
+        }
+
+        .reviews-content{
+            position: relative;
+            bottom: 70px;
+        }
+
+        .reviews-content .testimonials div{
+            position: relative;
+            bottom: 60px;
+        }
+
+        .reviews-content .testimonials{
+            
+            display: flex !important;
+		    gap: 30px !important;
+        }
+
+     .contact .subscribe .subscribe-button{
+            position: relative;
+            left: 3px;
+        }
+
+    }
