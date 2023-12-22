@@ -97,87 +97,6 @@
             font-family: Arial, Helvetica, sans-serif
         }
 
-        .About-company{
-            height: 80vh;
-            background: pink;
-        }
-
-        .about-company-content{
-            width: 60%;
-            margin: auto;
-            padding-top: 100px;
-            display: flex;
-            gap: 70px;
-        }
-
-        .about-company-content .AC-image{
-            width:  500px;
-            height: 400px;
-            position: relative;
-            top: 38px;
-        }
-
-        .about-company-text{
-            color: black;
-        }
-
-        .about-company-text h4{
-            font-weight: bold;
-        }
-
-        .about-company-text span{
-            font-size: 43px;
-            font-weight: bold;
-            line-height: normal;
-        }
-
-        .about-company-text p{
-            color: #5a5a5a;
-            padding-top: 20px;
-        }
-
-        .about-company-logoInfo span{
-            font-size: 37px;
-            color: black;
-        }
-
-        .about-company-logoInfo{
-            display: flex;
-            gap: 20px;
-        }
-
-        .plan-trip{
-            color: black;
-        }
-        
-        .plan-trip .header{
-           text-align: center;
-           padding: 250px;
-           font-family: Arial, Helvetica, sans-serif;
-           font-weight: bold;
-        }
-
-        .smooth-tripInfo{
-            display: flex;
-            gap: 200px;
-            width: 85%;
-            margin: 0 auto;
-            padding-left: 100px;
-            position: relative;
-            bottom: 50px;
-        }
-
-        .smooth-tripInfo div h4{
-            text-align: center;
-            font-size: 25px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        .smooth-tripInfo div p{
-            text-align: center;
-            color: #5a5a5a;
-        }
-
         .book-a-car{
             width: 100%;
             height: 150px;
@@ -508,4 +427,173 @@
         }
 
     }
+
+    /* Desktop screen size 1366*/
+    @media (min-width: 1366px) and (max-width: 1366px) {
+    
+        .navbar-nav .nav-item{
+            margin-right: 10px;
+            position: relative;
+            left: 80px;
+        }
+
+        .navbar-nav .nav-item .nav-link{
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navbar .btn{
+            color: #fff;
+            height: 40px;  
+            font-size: 18px;
+            width: 100px;
+            margin: 0;
+        }
+
+        .navbar .sign-btn{
+            background: none;
+            border: none;
+            color: black;
+            position: relative;
+            left: 10px;
+        }
+
+        .navbar .reg-btn{
+            background: none;
+            border: none;
+            background: #ff7200;  
+        }
+
+        .navbar .sign-btn:hover{
+            color: #fff;
+            transition: 0.4s ease-in-out;
+        }
+
+        .navbar-toggler{
+            border: 3px solid  #ff7200;
+            background: #fff;
+        }
+
+        .contact-us{
+            height: 100vh;
+        }
+
+        .contact-us .contactUs-content{
+            padding-top: 150px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 85%;
+            margin: auto;
+            display: flex;
+            gap: 200px;
+        }
+
+        .contactUs-form input, textarea{
+            margin-bottom: 15px;
+        }
+
+        .contact .subscribe .subscribe-button{
+            position: relative;
+            left: 3px;
+        }
+
+    }
+
+
+    /* Desktop screen size 1920*/
+    @media (min-width: 1920px) and (max-width: 1920px) {
+
+        .contact-us{
+             width: 85%;
+             margin: 0 auto;
+        }
+  
+         .contact .contact-content{
+              width: 75%;
+              margin: auto;
+              display: flex;
+              gap: 210px;
+         }
+  
+         .contact-content .subscribe .subscribe-button{
+              position: relative;
+              left: 3px;
+          }
+          
+       }
+
+        /* desktop screens resolution 1234 x 650 */
+        @media (width: 1234px) and (height: 650px) {
+            .navbar-nav .nav-item{
+                margin-right: 10px;
+                position: relative;
+                left: 80px;
+            }
+        
+            .navbar-nav .nav-item .nav-link{
+                color: #fff;
+                font-size: 17px;
+                position: relative;
+                right: 20px;
+            }
+        
+            .navbar .btn{
+                color: #fff;
+                height: 40px;  
+                font-size: 17px;
+                width: 100px;
+                margin: 0;
+            }
+        
+            .navbar .sign-btn{
+                background: none;
+                border: none;
+                color: black;
+                position: relative;
+                left: 10px;
+            }
+        
+            .navbar .reg-btn{
+                background: none;
+                border: none;
+                background: #ff7200;  
+            }
+        
+            .navbar .sign-btn:hover{
+                color: #fff;
+                transition: 0.4s ease-in-out;
+            }
+        
+            .navbar-toggler{
+                border: 3px solid  #ff7200;
+                background: #fff;
+            }
+
+            .contact-us{
+                height: 110vh;
+            }
+    
+            .contact-us .contactUs-content{
+                padding-top: 100px;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 85%;
+                margin: auto;
+                display: flex;
+                gap: 200px;
+            }
+
+            .contact-us .contactUs-content .contactUs-text-info span{
+                font-size: 40px;
+            }
+    
+            .contactUs-form input, textarea{
+                margin-bottom: 15px;
+            }
+    
+            .contact .subscribe .subscribe-button{
+                position: relative;
+                left: 3px;
+            }
+        }
 

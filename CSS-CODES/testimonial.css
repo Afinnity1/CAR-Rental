@@ -459,14 +459,158 @@
         }
 
         .reviews-content .testimonials{
-            
             display: flex !important;
 		    gap: 30px !important;
         }
 
-     .contact .subscribe .subscribe-button{
+        .contact .subscribe .subscribe-button{
             position: relative;
             left: 3px;
         }
-
     }
+
+    /* Desktop screen size 1366*/
+    @media (min-width: 1366px) and (max-width: 1366px) {
+    
+        .navbar-nav .nav-item{
+            margin-right: 10px;
+            position: relative;
+            left: 80px;
+        }
+
+        .navbar-nav .nav-item .nav-link{
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navbar .btn{
+            color: #fff;
+            height: 40px;  
+            font-size: 18px;
+            width: 100px;
+            margin: 0;
+        }
+
+        .navbar .sign-btn{
+            background: none;
+            border: none;
+            color: black;
+            position: relative;
+            left: 10px;
+        }
+
+        .navbar .reg-btn{
+            background: none;
+            border: none;
+            background: #ff7200;  
+        }
+
+        .navbar .sign-btn:hover{
+            color: #fff;
+            transition: 0.4s ease-in-out;
+        }
+
+        .navbar-toggler{
+            border: 3px solid  #ff7200;
+            background: #fff;
+        }
+
+        .reviews-section{
+            height: 100vh;
+        } 
+
+        .reviews-content .testimonials{
+            display: flex !important;
+		    gap: 70px !important;
+        }
+
+        .contact .subscribe .subscribe-button{
+            position: relative;
+            left: 3px;
+        }
+    }
+
+    /* Desktop screen size 1920*/
+    @media (min-width: 1920px) and (max-width: 1920px) {
+
+        .reviews-section{
+             width: 85%;
+             margin: 0 auto;
+        }
+  
+         .contact .contact-content{
+              width: 75%;
+              margin: auto;
+              display: flex;
+              gap: 210px;
+         }
+  
+         .contact-content .subscribe .subscribe-button{
+              position: relative;
+              left: 3px;
+          }
+          
+       }
+
+        /* desktop screens resolution 1234 x 650 */
+        @media (width: 1234px) and (height: 650px) {
+            .navbar-nav .nav-item{
+                margin-right: 10px;
+                position: relative;
+                left: 80px;
+            }
+        
+            .navbar-nav .nav-item .nav-link{
+                color: #fff;
+                font-size: 17px;
+                position: relative;
+                right: 20px;
+            }
+        
+            .navbar .btn{
+                color: #fff;
+                height: 40px;  
+                font-size: 17px;
+                width: 100px;
+                margin: 0;
+            }
+        
+            .navbar .sign-btn{
+                background: none;
+                border: none;
+                color: black;
+                position: relative;
+                left: 10px;
+            }
+        
+            .navbar .reg-btn{
+                background: none;
+                border: none;
+                background: #ff7200;  
+            }
+        
+            .navbar .sign-btn:hover{
+                color: #fff;
+                transition: 0.4s ease-in-out;
+            }
+        
+            .navbar-toggler{
+                border: 3px solid  #ff7200;
+                background: #fff;
+            }
+
+            .reviews-section{
+                height: 120vh;
+            } 
+
+            .reviews-content .testimonials{
+                display: flex !important;
+                gap: 70px !important;
+            }
+
+            .contact .subscribe .subscribe-button{
+                position: relative;
+                left: 3px;
+            }
+           
+        }
