@@ -6,7 +6,7 @@
         .container{
             max-width: 100%;
             height: 45vh;
-            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(car-rentals1.png);
+            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(images/car-rentals1.png);
 			background-size: cover;
 			background-position: center;
         }
@@ -455,6 +455,10 @@
             background: #fff;
         }
 
+        .About-company{
+            height: 60vh;
+        }
+
         .about-company-content .AC-image{
             width: 370px;
         }
@@ -468,7 +472,7 @@
         }
 
         .smooth-tripInfo{
-            gap: 100px;
+            gap: 70px;
         }
 
         .contact-content .subscribe .subscribe-button{
@@ -543,6 +547,9 @@
 
         /* desktop screens resolution 1920 x 1080 */
         @media screen and (width: 1920px) and (height: 1080px) {
+        .About-company{
+            height: 60vh;
+        }
 
        .plan-trip{
             width: 85%;

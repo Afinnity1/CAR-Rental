@@ -6,7 +6,7 @@
         .container{
             max-width: 100%;
             height: 45vh;
-            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(car-rentals1.png);
+            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(images/car-rentals1.png);
 			background-size: cover;
 			background-position: center;
         }
@@ -95,87 +95,6 @@
 
         .main-page{
             font-family: Arial, Helvetica, sans-serif
-        }
-
-        .About-company{
-            height: 80vh;
-            background: pink;
-        }
-
-        .about-company-content{
-            width: 60%;
-            margin: auto;
-            padding-top: 100px;
-            display: flex;
-            gap: 70px;
-        }
-
-        .about-company-content .AC-image{
-            width:  500px;
-            height: 400px;
-            position: relative;
-            top: 38px;
-        }
-
-        .about-company-text{
-            color: black;
-        }
-
-        .about-company-text h4{
-            font-weight: bold;
-        }
-
-        .about-company-text span{
-            font-size: 43px;
-            font-weight: bold;
-            line-height: normal;
-        }
-
-        .about-company-text p{
-            color: #5a5a5a;
-            padding-top: 20px;
-        }
-
-        .about-company-logoInfo span{
-            font-size: 37px;
-            color: black;
-        }
-
-        .about-company-logoInfo{
-            display: flex;
-            gap: 20px;
-        }
-
-        .plan-trip{
-            color: black;
-        }
-        
-        .plan-trip .header{
-           text-align: center;
-           padding: 250px;
-           font-family: Arial, Helvetica, sans-serif;
-           font-weight: bold;
-        }
-
-        .smooth-tripInfo{
-            display: flex;
-            gap: 200px;
-            width: 85%;
-            margin: 0 auto;
-            padding-left: 100px;
-            position: relative;
-            bottom: 50px;
-        }
-
-        .smooth-tripInfo div h4{
-            text-align: center;
-            font-size: 25px;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-
-        .smooth-tripInfo div p{
-            text-align: center;
-            color: #5a5a5a;
         }
 
         .book-a-car{
@@ -397,9 +316,11 @@
     }
 }
 
-/* Small Desktop Styles */
-    @media (min-width: 1280px) and (max-width: 1280px) {
-        /* Adjustments for small desktop screens */
+  /* desktop screens resolution 1280 x 1024 */
+  @media screen and (width: 1280px) and (height: 1024px) {
+        .container{
+            height: 30vh;
+        }
         .navbar-brand{
             font-size: 20px;
             color: #fff;
@@ -448,6 +369,10 @@
             background: #fff;
         }
 
+        .reviews-section{
+            height: 70vh;
+        } 
+
         .reviews-content{
             position: relative;
             bottom: 70px;
@@ -469,8 +394,8 @@
         }
     }
 
-    /* Desktop screen size 1366*/
-    @media (min-width: 1366px) and (max-width: 1366px) {
+    /* desktop screens resolution 1366 x 768 */
+    @media screen and (width: 1366px) and (height: 768px) {
     
         .navbar-nav .nav-item{
             margin-right: 10px;
@@ -530,8 +455,8 @@
         }
     }
 
-    /* Desktop screen size 1920*/
-    @media (min-width: 1920px) and (max-width: 1920px) {
+        /* desktop screens resolution 1920 x 1080 */
+        @media screen and (width: 1920px) and (height: 1080px) {
 
         .reviews-section{
              width: 85%;

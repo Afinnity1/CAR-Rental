@@ -6,7 +6,7 @@
         .container{
             max-width: 100%;
             height: 45vh;
-            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(car-rentals1.png);
+            background-image: linear-gradient(rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(images/car-rentals1.png);
 			background-size: cover;
 			background-position: center;
         }
