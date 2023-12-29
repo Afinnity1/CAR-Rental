@@ -292,9 +292,12 @@
         }
       }
 
-      /* Small Desktop Styles */
-    @media (min-width: 1280px) and (max-width: 1280px) {
-        /* Adjustments for small desktop screens */
+    /* desktop screens resolution 1280 x 1024 */
+    @media screen and (width: 1280px) and (height: 1024px) {
+        .container{
+            height: 30vh;
+        }
+
         .navbar-brand{
             font-size: 20px;
             color: #fff;
@@ -343,15 +346,15 @@
             background: #fff;
         }
 
-     .contact .subscribe .subscribe-button{
+        .contact .subscribe .subscribe-button{
             position: relative;
             left: 3px;
         }
 
     }
 
-    /* Desktop screen size 1366*/
-    @media (min-width: 1366px) and (max-width: 1366px) {
+    /* desktop screens resolution 1366 x 768 */
+    @media screen and (width: 1366px) and (height: 768px) {
     
         .navbar-nav .nav-item{
             margin-right: 10px;
@@ -406,8 +409,8 @@
         }
     }
 
-    /* Desktop screen size 1920*/
-    @media (min-width: 1920px) and (max-width: 1920px) {
+    /* desktop screens resolution 1920 x 1080 */
+    @media screen and (width: 1920px) and (height: 1080px) {
 
         .our-team{
              width: 85%;

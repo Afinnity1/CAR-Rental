@@ -1257,8 +1257,12 @@
              }
     }
 
-    /* Large screens (desktops) */
-    @media (max-width: 1280px)  {
+    /* desktop screens resolution 1280 x 1024 */
+    @media screen and (width: 1280px) and (height: 1024px) {
+        .container{
+            height: 70vh !important;
+        }
+
         .navbar-brand{
             font-size: 20px;
             color: #fff;
@@ -1288,7 +1292,7 @@
             border: none;
             color: black;
             position: relative;
-            left: 35px;
+            left: 15px;
         }
 
         .navbar .reg-btn{
@@ -1309,7 +1313,7 @@
 
         form, .second-form{
             display: flex;
-            gap: 60px;
+            gap: 30px;
         }
 
         .plan-trip .smooth-tripInfo{
@@ -1334,8 +1338,8 @@
 
     }
 
-    /* Desktop screen size 1366*/
-        @media (min-width: 1366px) and (max-width: 1366px) {
+    /* desktop screens resolution 1366 x 768 */
+    @media screen and (width: 1366px) and (height: 768px) {
     
             .navbar-nav .nav-item{
                 margin-right: 10px;
@@ -1361,7 +1365,7 @@
                 border: none;
                 color: black;
                 position: relative;
-                left: 70px;
+                left: 35px;
             }
     
             .navbar .reg-btn{
@@ -1378,6 +1382,14 @@
             .navbar-toggler{
                 border: 3px solid  #ff7200;
                 background: #fff;
+            }
+
+            form{
+                gap: 60px;
+            }
+
+            .second-form{
+                gap: 60px;
             }
 
             .plan-trip .smooth-tripInfo{
@@ -1401,8 +1413,8 @@
              }
         }
 
-         /* Desktop screen size 1920*/
-         @media (min-width: 1920px) and (max-width: 1920px) {
+         /* desktop screens resolution 1920 x 1080 */
+         @media screen and (width: 1920px) and (height: 1080px) {
 
             .booking{
                 width: 60%;
@@ -1429,6 +1441,37 @@
 
         /* desktop screens resolution 1234 x 650 */
         @media screen and (width: 1234px) and (height: 650px) {
+            .navbar-nav .nav-item{
+                margin-right: 10px;
+                position: relative;
+                left: 80px;
+            }
+
+            .navbar-nav .nav-item .nav-link{
+                color: #fff;
+                font-size: 16px;
+            }
+
+            .navbar .btn{
+                color: #fff;
+                height: 40px;  
+                font-size: 15px;
+                width: 100px;
+                margin: 0;
+            }
+
+            .navbar .sign-btn{
+                background: none;
+                border: none;
+                color: black;
+                position: relative;
+                left: 52px;
+            }
+
+            .content{
+                bottom: 70px;
+            }
+
             form{
                 gap: 70px !important;
             }
@@ -1441,17 +1484,36 @@
                 width: 300px;
             }
 
+            .smooth-tripInfo{
+                gap: 50px !important;
+            }
+
+            .slider-container{
+                width: 90vmin;
+                height: 60vh;
+            }
+
+            .slider-container img{
+                height: 60vh;
+            }
+
             .testimonials{
                 gap: 300px;
-           }
+            }
 
            .download-app{
                 gap: 0px;
-           }
+            }
 
-           .smooth-tripInfo{
-                gap: 50px !important;
-           }
+            .details-content{
+                display: flex;
+                gap: 170px;
+            }
+
+            .contact .subscribe .subscribe-button{
+                position: relative;
+                left: 3px;
+            }
 
         }
 
